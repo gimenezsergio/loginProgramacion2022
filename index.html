@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+
+<body class="wrapper">
+    <form action="" class="formulario">
+        <h1>Login</h1>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-beer" width="72" height="72"
+                viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M9 20h6v-4.111a8 8 0 0 1 .845 -3.578l.31 -.622a8 8 0 0 0 .845 -3.578v-4.111h-10v4.111a8 8 0 0 0 .845 3.578l.31 .622a8 8 0 0 1 .845 3.578v4.111z" />
+                <path d="M7 8h10" />
+            </svg>
+        </div>
+        <div>
+            <input type="text" name="" class="user" placeholder="Usuario">
+        </div>
+        <div>
+            <input type="password" name="" class="password" placeholder="Password">
+        </div>
+
+        <div class="recordar">
+            <label for="">Recordar usuario</label><input type="checkbox" name="">
+        </div>
+        <div >
+            <!-- <input type="submit" value="Submit" class="boton"> -->
+            <input type="button" value="Login" class="boton" onclick="validarUsuario();">
+        </div>
+        <div class="mensaje_de_resultado">
+
+        </div>
+        
+    </form>
+    <script src="program.js"></script>
+</body>
+
+</html>

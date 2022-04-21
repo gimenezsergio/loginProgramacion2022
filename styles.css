@@ -1,0 +1,45 @@
+.wrapper {
+    background-color: #E9D5DA;
+    text-align: center;
+}
+
+.formulario{
+    /* text-align: center; */
+    background-color: #827397;
+    width: 330px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.user, .password {
+    /* display: block; */
+    /* height: 30px; */
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+.boton {
+    background-color: #E9D5DA;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.recordar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* 
+//elementos en bloque`
+
+//elemtnos en linea */
