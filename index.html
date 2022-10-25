@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-grid.css">
     <title>Login</title>
 </head>
 
@@ -23,10 +23,13 @@
             </svg>
         </div>
         <div>
-            <input type="text" name="" class="user" placeholder="Usuario">
+            <input type="text" name="" class="user logindata" placeholder="Usuario">
         </div>
-        <div>
-            <input type="password" name="" class="password" placeholder="Password">
+        <div >
+            <input type="password" name="" class="password logindata" placeholder="Password">
+            <div class="ojito">
+                <img onclick="mostrarOcultar()" class="" src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/swFqSxKYa5M.png" alt="">
+            </div>
         </div>
 
         <div class="recordar">
@@ -34,14 +37,14 @@
         </div>
         <div >
             <!-- <input type="submit" value="Submit" class="boton"> -->
-            <input type="button" value="Login" class="boton" onclick="validarUsuario();">
+            <input type="button" value="Login" class="boton">
         </div>
         <div class="mensaje_de_resultado">
 
         </div>
         
     </form>
-    <script src="program.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
